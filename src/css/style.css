@@ -1,0 +1,182 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  max-width: 140rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+.cabecalho {
+  max-height: 600px;
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: saddlebrown;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.cabecalho ul {
+  display: flex;
+}
+
+.cabecalho ul li a {
+  font-size: 2rem;
+  padding: 4.6rem;
+  color: #fff;
+}
+
+.cabecalho ul li a:hover {
+  font-weight: 600;
+}
+
+
+.promotion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.secao-com-texto {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.secao-com-texto img {
+  max-width: 17rem;
+  max-height: 17rem;
+  margin-bottom: 7rem;
+}
+
+.secao-com-texto h2,
+.promotion h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3.7rem;
+}
+
+.secao-com-texto p {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  max-width: 702px;
+}
+
+.secao-com-texto .texto {
+  font-size: 2.8rem;
+}
+
+
+.rodape {
+  background-color: saddlebrown;
+  min-height: 215px;
+}
+
+.menu-roda-pe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.rodape ul {
+  display: flex;
+}
+
+.rodape ul li {
+  padding: 15px;
+}
+
+.rodape ul li a {
+  color: #fff;
+}
+
+.rodape ul li a:hover {
+  font-weight: bold;
+}
+
+.conteudo-de-baixo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+
+.rodape .copyright {
+  color: #fff;
+}
+
+.rodape .rede-sociais .facebook,
+.rodape .rede-sociais .instagram {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.logo-about,
+.logo-buy {
+  height: 17rem;
+}
+
+.wheretobuy {
+  display: inline-block;
+  margin: auto 20px;
+}
+
+.wheretobuy img {
+  border-radius: 15px;
+}
+
+
+.menu-item {
+  padding: 0;
+  width: 100%;
+}
+
+.menu-container {
+  width: 70%;
+  min-width: 300px;
+  border-radius: 20px;
+  background-color: bisque;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 10px 10px burlywood;
+
+}
+
+.item {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.25em;
+
+}
+
+.text-logo {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+.header-text {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 20px;
+}

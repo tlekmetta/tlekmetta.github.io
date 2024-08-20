@@ -1,0 +1,110 @@
+@media (max-width: 992px) {
+  .painel h2 {
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  .secao-com-texto p {
+    line-height: 2.8rem;
+  }
+
+  .secao-com-texto .texto {
+    font-size: 2.5rem;
+  }
+
+  .texto-contato {
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 720px) {
+  .painel h2 {
+    font-size: 4.5rem;
+  }
+
+  .texto-contato {
+    margin-right: 0;
+  }
+
+  .contato {
+    background-image: none;
+    background: #d3ae71;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .cabecalho {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cabecalho ul {
+    flex-direction: column;
+    margin-top: 5.2rem;
+  }
+
+  .cabecalho ul li {
+    margin: 2rem;
+  }
+
+  .painel {
+    margin: 0;
+  }
+
+  .painel h2 {
+    font-size: 2.5rem;
+  }
+
+  .secao-com-texto {
+    margin-top: 2rem;
+  }
+
+  .secao-com-texto img {
+    margin-bottom: 3rem;
+  }
+
+  .secao-com-texto h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .secao-com-texto p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .secao-com-texto .texto {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .texto-contato address {
+    font-size: 2rem;
+  }
+
+  .menu-roda-pe {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rodape ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .conteudo-de-baixo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+
+}
